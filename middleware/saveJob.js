@@ -1,6 +1,7 @@
 const Jobs = require("../models/jobs");
 const { validationResult } = require("express-validator");
 
+//The middleware function is to save the data in our DB
 module.exports = async (req, res, next) => {
     const errors = validationResult(req);
     const jobArray = req.body;

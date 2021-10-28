@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema
 
+//Schema is the way how configurate the Data Base with mongoose and MongoDB
 const jobSchema = new Schema({
     jobData: [
         {
@@ -18,6 +19,7 @@ const jobSchema = new Schema({
     ]
 })
 
+//We use this method to update de DB and add the Even Number
 jobSchema.methods.updateIsEven = function () {
     let i = 0
     const updateJobData = [...this.jobData];
