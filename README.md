@@ -6,8 +6,8 @@
 * [General info](#general-info)
 * [How Run the Proyect](#how-run-the-proyect)
 * [How Test the Proyect](#how-test-the-proyect)
-* [Get endpoint](#get-endpoint)
 * [Post endpoint](#post-endpoint)
+* [Get endpoint](#get-endpoint)
 
 ## General info
 This project is an Rest Api that save, return and update jobs given by one post and one get request, i used NodeJS with Express framework and a database in MongoDB
