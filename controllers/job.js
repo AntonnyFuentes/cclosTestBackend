@@ -53,7 +53,7 @@ exports.getJob = async (req, res, next) => {
     try {
       let response
       let status = "Finished"
-      let jobId = req.body.jobId
+      let jobId = req.query.jobId
       const job = await Jobs.findOne({ _id: jobId });
 
       if (!jobId) {
