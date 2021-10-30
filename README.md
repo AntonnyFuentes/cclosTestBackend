@@ -5,13 +5,14 @@
 ## Table of contents
 * [General info](#general-info)
 * [How Run the Proyect](#how-run-the-proyect)
+* [How Test the Proyect](#how-test-the-proyect)
 * [Get endpoint](#get-endpoint)
 * [Post endpoint](#post-endpoint)
 
 ## General info
 This project is an Rest Api that save, return and update jobs given by one post and one get request, i used NodeJS with Express framework and a database in MongoDB
 	
-## How Run the Proyect?
+## How Run the Proyect
 * Install the latest version of NodeJS: https://nodejs.org/en/download/
 * Install the project dependencies with “npm install” 
 * Run the project with “npm start
@@ -20,7 +21,7 @@ $ npm install
 $ npm start
 ```
 
-## How Test the Proyect?
+## How Test the Proyect
 * The project should be running in localhost:3000 
 * Use postman (or similar) to test the 2 available endpoints
 
